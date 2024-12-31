@@ -50,7 +50,12 @@
                 <a
                   href="tel:015771937200"
                   class="inline-flex justify-center rounded-md bg-error px-4 py-2 text-sm font-medium text-white shadow-lg"
-                  >Termin vereinbaren über Telefon</a
+                  >Anrufen</a
+                >
+                <a
+                  href="mailto:kosmetikstudio-benning@web.de?subject=Terminanfrage"
+                  class="inline-flex justify-center rounded-md bg-error px-4 py-2 text-sm font-medium text-white shadow-lg"
+                  >E-Mail schreiben</a
                 >
               </div>
             </DialogPanel>

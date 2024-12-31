@@ -47,8 +47,11 @@
       <TextCard title="Kontakt / Öffnungszeiten" image-src="straße">
         <br />
         <p>Lindenstraße 1 D 46459 Rees - Haldern</p>
-        <p>Tel: 0157-71937200</p>
-        <p>Email: kosmetikstudio-benning@web.de</p>
+        <a href="tel:015771937200" class="text-error">Tel: 0157-71937200</a>
+        <br />
+        <a href="mailto:kosmetikstudio-benning@web.de?subject=Terminanfrage" class="text-error"
+          >Email: kosmetikstudio-benning@web.de</a
+        >
         <p>Termine nach telefonischer Vereinbarung oder per Whatsapp Nachricht an jedem:</p>
         <br />
         <ul>
