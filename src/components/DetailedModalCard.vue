@@ -39,22 +39,22 @@
                 <slot />
               </div>
 
-              <div class="mt-4 flex justify-between">
+              <div class="mt-4 flex justify-between text-center space-x-5">
                 <button
                   type="button"
-                  class="inline-flex justify-center rounded-md border-2 border-error px-4 py-2 text-sm font-medium text-error shadow-lg"
+                  class="inline-flex justify-center rounded-md border-2 border-error p-3 text-sm font-medium text-error shadow-lg"
                   @click="$emit('closeModal')"
                 >
                   Schließen
                 </button>
                 <a
                   href="tel:015771937200"
-                  class="inline-flex justify-center rounded-md bg-error px-4 py-2 text-sm font-medium text-white shadow-lg"
+                  class="inline-flex justify-center rounded-md bg-error p-3 text-sm font-medium text-white shadow-lg"
                   >Anrufen</a
                 >
                 <a
                   href="mailto:kosmetikstudio-benning@web.de?subject=Terminanfrage"
-                  class="inline-flex justify-center rounded-md bg-error px-4 py-2 text-sm font-medium text-white shadow-lg"
+                  class="inline-flex justify-center rounded-md bg-error p-3 text-sm font-medium text-white shadow-lg"
                   >E-Mail schreiben</a
                 >
               </div>

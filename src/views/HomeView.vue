@@ -26,7 +26,7 @@
         </p>
         <div class="flex flex-row justify-between">
           <p></p>
-          <Button class="text-white bg-error rounded-lg p-2 shadow-lg" @click="openModal()">
+          <Button class="text-white bg-error rounded-lg p-2 shadow-lg m-3" @click="openModal()">
             zur Preisliste
           </Button>
         </div>
@@ -49,7 +49,7 @@
         <p>Lindenstraße 1 D 46459 Rees - Haldern</p>
         <a href="tel:015771937200" class="text-error">Tel: 0157-71937200</a>
         <br />
-        <a href="mailto:kosmetikstudio-benning@web.de?subject=Terminanfrage" class="text-error"
+        <a href="mailto:kosmetikstudio-benning@web.de?subject=Terminanfrage" class="text-error mt-5"
           >Email: kosmetikstudio-benning@web.de</a
         >
         <p>Termine nach telefonischer Vereinbarung oder per Whatsapp Nachricht an jedem:</p>
