@@ -4,7 +4,7 @@
     <br />
     <div class="lg:flex lg:flex-row w-full h-3/4">
       <div class="flex justify-center">
-        <img :src="`src/assets/${props.imageSrc}.jpg`" width="300" alt="Bild" />
+        <img :src="`${base}assets/${props.imageSrc}.jpg`" width="300" alt="Bild" />
       </div>
       <div class="text-center w-full p-4">
         <slot />
@@ -15,6 +15,8 @@
 <script setup lang="ts">
 import BaseCard from './BaseCard.vue'
 import { defineProps } from 'vue'
+
+const base = import.meta.env.BASE_URL
 
 const props = defineProps({ title: String, imageSrc: String })
 </script>
